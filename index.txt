@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your GitHub Pages Website</title>
+    <style>
+        body {
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Arial', sans-serif;
+        }
+        header h1 {
+            font-family: 'Georgia', serif; /* Change to your desired title font */
+        }
+        .content {
+            text-align: right;
+            margin-right: 5cm;
+        }
+        .red-line {
+            background-color: red;
+            height: 5px;
+            overflow: hidden;
+        }
+        .moving-text {
+            white-space: nowrap;
+            animation: marquee 10s linear infinite;
+        }
+        .about-section {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .about-subtitle {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to DPSBE's Gossip Hub</h1>
+        <div class="red-line">
+            <p class="moving-text">We have all the gossips, rumors, videos, photos, etc.</p>
+        </div>
+    </header>
+    <div class="content">
+        <p>Welcome to DPSBE's own Student-run Gossip site</p>
+        
+        <!-- About Us Section -->
+        <div class="about-section">
+            <p class="about-subtitle">Who are we?</p>
+            <p>Your custom content for this section goes here.</p>
+            <p class="about-subtitle">Where do we get the news from?</p>
+            <p>Your custom content for this section goes here.</p>
+            <p class="about-subtitle">Can you trust us?</p>
+            <p>Your custom content for this section goes here.</p>
+        </div>
+        
+        <!-- Add more content here -->
+    </div>
+</body>
+</html>
